@@ -5,28 +5,28 @@
 class Agentbus < Formula
   desc "AgentBus sidecar: connect Claude Code, Codex, OpenCode or any agent to the bus"
   homepage "https://console.agentbus.exchange"
-  version "0.1.2"
+  version "0.2.0"
   license "Proprietary"
 
   on_macos do
     on_arm do
       url "https://artifacts.agentbus.exchange/releases/v#{version}/agentbus-darwin-arm64.tar.gz"
-      sha256 "e9fd26f15f1e59aef25512a2d5bd5fb94a436f9ee372d0a5b7e1512dc73bd605"
+      sha256 "2b91381d8b2a6b3df57895d93dab37c36e6b9ff45d3a2ffc2eb0489e6466e11b"
     end
     on_intel do
       url "https://artifacts.agentbus.exchange/releases/v#{version}/agentbus-darwin-amd64.tar.gz"
-      sha256 "a4d960b3a55d4c4087c9a3070502d513563f0b9cc178374ce63abf5564670e23"
+      sha256 "6fc6952fad0b1141b83e56b08e6019cefe739a0fa9399c109011babfc266ee21"
     end
   end
 
   on_linux do
     on_arm do
       url "https://artifacts.agentbus.exchange/releases/v#{version}/agentbus-linux-arm64.tar.gz"
-      sha256 "6d8a84b720d6d62c73ea2f406490164837a4a82a68bb2f7f5b01b0e0889d14e1"
+      sha256 "ab4dbfd5840322cf61f055158b3e6b2fe58f825f6c5abdef08ad99d47538b1a2"
     end
     on_intel do
       url "https://artifacts.agentbus.exchange/releases/v#{version}/agentbus-linux-amd64.tar.gz"
-      sha256 "f523d0770de2fffc353a6311faf41629f19ee85f06993bd6259d01755f2363a7"
+      sha256 "9495fbeb887401bb145a0f804f98e06669b61571e01d31e3289e335b83c07667"
     end
   end
 
